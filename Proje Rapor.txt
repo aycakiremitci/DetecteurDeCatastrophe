@@ -1,4 +1,4 @@
-Bildiğiniz üzere istanbulda son zamanlarda deprem konusu konuşuluyor. Bu konu beni çok korkuttuğu 
+Bildiğiniz üzere İstanbul'da son zamanlarda deprem konusu konuşuluyor. Bu konu beni çok korkuttuğu 
 için projemi bu konuda yapmaya karar verdim. Başlangıçta, deprem anında alarm çalması ve 
 güvenlik önlemi olarak elektrikleri kesmesine karar verdim. Çünkü depremlerde can kayıplarının 
 büyük çoğunluğu elektrik çarpması gibi yan faktörlerden kaynaklanıyor. Daha sonra bunu geliştirdim ve
