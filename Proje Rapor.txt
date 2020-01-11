@@ -1,0 +1,14 @@
+Bildiğiniz üzere istanbulda son zamanlarda deprem konusu konuşuluyor. Bu konu beni çok korkuttuğu 
+için projemi bu konuda yapmaya karar verdim. Başlangıçta, deprem anında alarm çalması ve 
+güvenlik önlemi olarak elektrikleri kesmesine karar verdim. Çünkü depremlerde can kayıplarının 
+büyük çoğunluğu elektrik çarpması gibi yan faktörlerden kaynaklanıyor. Daha sonra bunu geliştirdim ve
+aynı şeyleri yangın durumu için de yaptım. Bu şekilde Evdeki bazı afet durumları için tedbir alan 
+bir proje geliştirdim.
+
+Arduino Uno ile yaptığım projede duman sensörü MQ-4 ve titreşim sensörü SW-420 kullandım. 
+Herhangi bir titreşim durumunda veya duman seviyesi belli bir eşik değerini geçince projede 
+kullandığım buzzer (kendisi alarm görevi görüyor) susuyor. Ardından elektrik sigortası yerine 
+kullandığım led (elektrik var, bu yüzden yanıyor normalde) sönüyor. MQ-4 ortamdaki dumanı algılarken,
+SW-420 üstündeki parçalarla birlikte herhangi bir sarsıntıda titreşimin varlığını 1 veya 0 olarak 
+bize geri döndürüyor. Yazılım tarafında ise bu iki sensörden gelen değerleri okuyup buna uygun
+koşullar ile alarmı susturup elektriği kesiyoruz.
